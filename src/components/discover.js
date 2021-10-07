@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function discover() {
+export default function Discover() {
     return (
         <div className="discover">
             discover

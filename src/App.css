@@ -7,26 +7,57 @@ body {
   flex-direction: row;
 }
 
-.sidebar {
-  width: 70vh;
-  height: 100vh;
-  background-color: red;
-  margin:0;
-  bottom:0;
+.app .right_bar img {
+  width: 40vh;
+  margin-bottom:3rem;
 }
 
-.sidebar img {
-  width: 50vh;
+.sidebar_ul {
+  margin-left:20px;
+  list-style-type: none;font-family: Arial, Helvetica, sans-serif;
 }
 
+.sidebar_ul li{
+  padding: 20px 20px;
+}
+
+.sidebar_ul li a {
+text-decoration: none;
+}
+
+.sidebar_ul svg {
+  font-size:30px;
+  padding: 10px 10px;
+}
 .home {
   width: 400px;
   background-color: sandybrown;
-  padding-left: 50px;
+  padding: 50px 0 50px 40px;
 }
 
 .discover {
   width: 400px;
   background-color: rgb(248, 244, 18);
   padding-left: 50px;
+}
+
+.categories {
+  width: 400px;
+  background-color: rgb(33, 209, 9);
+  padding-left: 50px;
+}
+
+.courses {
+  width: 400px;
+  background-color: rgb(248, 18, 229);
+  padding-left: 50px;
+}
+
+.header_ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_ul li {
+  width:50px;
 }
