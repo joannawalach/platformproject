@@ -91,7 +91,7 @@ text-decoration: none;
 }
 
 .courses .btn {
-  background-color: rgb(248, 244, 18);
+  background-color: rgb(255, 252, 53); ;
   text-decoration: none;
   margin:0 0 0 20px;
   padding:10px;
@@ -107,4 +107,8 @@ text-decoration: none;
   width:70px;
   list-style-type: none;
   padding-right: 30px;
+}
+
+.online_teachers {
+  margin-bottom: 30px;
 }
